@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/defaultBackground"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Fragments.SettingsFragment">
+
+    <EditText
+        android:id="@+id/namePlayerProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="PlayerName"
+        android:inputType="text|textCapSentences"
+        android:maxLength="15"
+        android:singleLine="true" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/picturePlayerProfile"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:adjustViewBounds="true"
+            android:alpha="0.4"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/user_icon" />
+
+        <ImageButton
+            android:id="@+id/changeImageButtonSettings"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="#00FFFFFF"
+            android:scaleType="centerCrop"
+            android:src="@drawable/edit_icon" />
+    </FrameLayout>
+
+    <Switch
+        android:id="@+id/positionShareSwitchPlayerProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Position sharing" />
+
+    <Button
+        android:id="@+id/confirmButtonPlayerProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/button"
+        android:text="Confirm" />
+
+</LinearLayout>

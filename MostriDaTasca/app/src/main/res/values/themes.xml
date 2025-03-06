@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MostriDaTasca" parent="Theme.Design.Light.NoActionBar">
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/defaultBackground</item>
+        <item name="android:textViewStyle">@style/StyledText</item>
+        <item name="android:buttonStyle">@style/StyledButton</item>
+        <item name="android:imageButtonStyle">@style/StyledImageButton</item>
+    </style>
+</resources>

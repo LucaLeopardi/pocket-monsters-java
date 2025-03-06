@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/defaultBackground"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Fragments.RegistrationFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pocket Monsters"
+        android:textAllCaps="true"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signUpButtonRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Sign up" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/settingsContainerRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Fragments.ItemSlotFragment">
+
+    <TextView
+        android:id="@+id/titleEquipSlot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nameEquipSlot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageEquipSlot"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/levelEquipSlot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Level"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/effectEquipSlot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Effect"
+        android:textAlignment="center" />
+</LinearLayout>
